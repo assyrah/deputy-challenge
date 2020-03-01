@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    line-height: 1.5;
+    color: $color-font;
+    text-align: left;
+    background-color: $color-body;
+}
+
+main,
+article,
+aside,
+footer,
+header,
+nav,
+section {
+    display: block;
+}

@@ -1,0 +1,48 @@
+.button {
+    display: inline-block;
+    padding: $btn-padding;
+    vertical-align: middle;
+    font-weight: $font-weight-bold;
+    border: $border-default;
+    border-radius: $btn-radius;
+    box-shadow: none;
+    line-height: 1;
+    background-color: $color-body;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $color-primary-light;
+        color: $color-font-inverted;
+        text-decoration: none;
+    }
+
+    &:focus {
+        outline: 0;
+    }
+    
+    &:disabled {
+        background-color: transparent;
+        color: $color-font-disabled;
+    }
+
+    &--text {
+        border: none;
+        font-weight: $font-weight-bold;
+        color: $color-font-primary;
+        background: transparent;
+        padding: 0;
+        &:hover {
+            background-color: transparent;
+            color: $color-font-primary-light;
+        }
+    }
+    
+    &--inverted {
+    color: $color-font-inverted;
+    background: $color-primary-light;
+        &:hover {
+            background-color: $color-primary;
+            color: $color-font-inverted;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.input,
+.select {
+    padding-right: .75rem;
+    padding-left: .75rem;
+    border: $border-default;
+    border-radius: $border-radius;
+    color: $color-font;
+    height: $input-height;
+    position: relative;
+    width: 100%;
+    margin-bottom: $grid-gutter;
+
+    &:focus {
+        outline: none;
+        border-color: $input-focus;
+    }
+}
+
+.select {
+    &:invalid {
+        color: $color-font-light;
+        font-weight: $font-weight;
+    }
+}

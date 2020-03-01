@@ -1,0 +1,20 @@
+.pagination {
+    text-align: center;
+    justify-content: space-between;
+    padding-right: $grid-gutter;
+    padding-left: $grid-gutter;
+
+    .button {
+        padding-left: $grid-gutter;
+        padding-right: $grid-gutter;
+        vertical-align: baseline;
+
+        &.active {
+            color: $color-primary-dark;
+        }
+    }
+
+    .page-prev, .page-next {
+        width: 100px;
+    }
+}

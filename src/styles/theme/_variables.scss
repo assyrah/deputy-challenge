@@ -1,0 +1,69 @@
+// Colours
+$color-primary: #1f77bc;
+$color-primary-dark: darken($color-primary, 20%);
+$color-primary-light: lighten($color-primary, 20%);
+
+$color-mono-100: #fff;
+$color-mono-200: #F5F5F5;
+$color-mono-300: #D5D5D5;
+$color-mono-400: #9D9D9D;
+$color-mono-500: #6A6A6A;
+$color-mono-600: #2F3D3B;
+$color-mono-700: #222C2B;
+
+$color-body: $color-mono-100;
+$color-border: $color-mono-300;
+$color-border-inverted: $color-primary-light;
+$color-font: $color-mono-600;
+$color-font-light: $color-mono-500;
+$color-font-disabled: $color-mono-300;
+$color-font-inverted: $color-mono-100;
+$color-font-primary: $color-primary;
+$color-font-primary-dark: $color-primary-dark;
+$color-font-primary-light: $color-primary-light;
+$color-table: $color-mono-300;
+
+// Globals
+$site-width: 1150px;
+$border-width: 1px;
+$border-default: $border-width solid $color-border;
+$border-radius: .1875rem;
+
+// Typography
+$font-size-base: 16px;
+$font-size-xs: .75rem;
+$font-size-sm: .875rem;
+$font-size: 1rem;
+$font-size-lg: 1.25rem;
+$font-size-xlg: 1.5rem;
+$font-size-xxlg: 2.25rem;
+$font-size-xxxlg: 3rem;
+
+$primary-font: "Averta W05", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+$font-weight: 400;
+$font-weight-bold: 700;
+
+// Modules
+$header-height: 3.75rem;
+$header-border: $border-width solid $color-border;
+$btn-radius: .375rem;
+$btn-radius-sm: .25rem;
+$btn-padding-vert: 11px;
+$btn-padding-horz: 24px;
+$btn-padding: $btn-padding-vert $btn-padding-horz;
+$input-height: 1.75rem;
+$input-focus: $color-mono-600;
+
+// Grid and Breakpoints
+$breakpoint-xs: 0;
+$breakpoint-sm: 340px;
+$breakpoint-md: 480px;
+$breakpoint-lg: 640px;
+$breakpoint-xl: 920px;
+$breakpoint-xxl: $site-width;
+
+$site-base: 4px;
+$grid-gutter: $site-base * 2;
+$grid-gutter-md: $site-base * 4;
+$grid-gutter-lg: $site-base * 5;
